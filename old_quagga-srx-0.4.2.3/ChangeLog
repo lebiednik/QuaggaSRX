@@ -1,0 +1,35 @@
+ChangeLog information for Quagga is now recorded in our source-code
+management system. Please see:
+
+	http://www.quagga.net/devel.php
+
+
+QuaggaSRx changes are:
+======================
+  0.4.2.2 - February 2017
+    * Minor Bug Fixes
+    * Added capability negotiation for Extended Message (> 4094)
+
+  0.4.2.1 - July 2016
+    * Removed unused in line documentation
+    * Minor Bug Fixes
+
+  0.4.2.0 - July 2016
+    * Rewrote BGPSEC Path processing according to bgpsec draft 17
+    * Removed handling of public keys. This musat be done in SRxCryptoAPI as 
+      well as SRx-Server
+    * Enabled MPNLRI encoding for IPv4 addresses
+    * Allowing to specify more than one private key for path signing
+    * Minor Bug Fixes
+
+  0.4.1.5 - March 2016
+    * Minor bug fixes
+
+  0.4.1.4 - October 2015
+    * Modified RPM build tool to require SRxCryptoAPI >= 1.2.0
+    * Removed methods used from SRxCryptoAPI 1.1.x
+    * Fixed configuration issues in configure.ac
+
+  0.4.1.3b - October 2015
+    * Started Adding information to ChangeLog
+    * Modified RPM build tool to require SRxCryptoAPI >= 1.1.0 < 1.2.0
